@@ -35,9 +35,8 @@ public class ExamenServiceImpl implements ExamenService{
                 argCoordenadas=new int[tamanio][2];
 
                 for(int j=0; j<tamanio; j++){
-                    for(int k=0; k<argCoordenadas[0].length; k++){
-                        argCoordenadas[j][k]=entrada.nextInt();
-                    }
+                    argCoordenadas[j][0]=entrada.nextInt();
+                    argCoordenadas[j][1]=entrada.nextInt();
                 }
                 System.out.println(resolverCaso(argCoordenadas));
                 respuestas.add(new TestResponse(resolverCaso(argCoordenadas)));
