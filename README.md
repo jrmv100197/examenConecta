@@ -37,13 +37,9 @@ Constraints
 Sample Input and Outputs
   Sample Input:   Sample Output:
   1                      0
-  
   3
-  
   0 0
-  
   0 1
-  
   0 3
   
   
